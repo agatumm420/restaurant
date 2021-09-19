@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  font-family: "ClarendonSunday", "ITC Lubalin Graph", Rockwell, serif;
+  background-image: url(https://www.economist.com/img/b/1280/720/90/1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/0115IL_IN_WIN_03-header.jpg);
+  color: white;
+  font: bold;
+  width: 100%;
+  font-size: 50px;
+  align-self: center;
+}
+.name {
+  font-size: 50px;
+  font-family: "ClarendonSunday", "ITC Lubalin Graph", Rockwell, serif;
+  color: white;
+}
+.switch {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+
+  bottom: 400px;
+  left: 300px;
+  height: 250px;
+  width: 500px;
+  opacity: 0.7;
+  border: blanchedalmond;
+  border: 1;
+}
+.switch:hover {
+  opacity: 1;
+}
+.switch-box {
+  font-size: 30px;
+  font-family: "ClarendonSunday", "ITC Lubalin Graph", Rockwell, serif;
+  color: white;
+  position: relative;
+  align-self: center;
+  background-image: url(https://image.shutterstock.com/image-photo/blurred-background-customer-cafe-blur-260nw-285042017.jpg);
+}
+.review-box {
+  display: flex;
+  justify-content: center;
+  font-family: "Grechen Fuemen", cursive;
+  width: 100%;
+}
+.home-label {
+  position: relative;
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 25px;
+  color: white;
+  top: 200px;
+  right: 200px;
+}
+.home-img {
+  position: relative;
+  right: 500px;
+  top: 100px;
+  width: 300px;
+  height: auto;
+}
+#content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  top: 150px;
+}
+.item {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu-img {
+  align-self: center;
+  width: 300px;
+  height: auto;
+}
+.name {
+  align-self: center;
+}
+.heading {
+  position: relative;
+  left: 500px;
+  font-family: "ClarendonSunday", "ITC Lubalin Graph", Rockwell, serif;
+  font-size: 40px;
+}
+.price {
+  align-self: center;
+}
